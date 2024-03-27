@@ -33,7 +33,7 @@ K <- 1000
 # 
 p <- 1
 #
-# UPDATE HERE THE THRESHOLD VALUE FOR RMSR 
+# UPDATE HERE THE THRESHOLD VALUE FOR CRMSR 
 # IT MUST BE A VALUE BETWEEN 0.001 and 0.100
 # 
 rmsr_t <- 0.03
@@ -328,7 +328,7 @@ if (p>0) {
 } else {
   print("# Aim of the analysis   :  Fully exploratory")
 }
-print(sprintf("# RMSR threshold        :  %5.3f",rmsr_t))
+print(sprintf("# CRMSR threshold       :  %5.3f",rmsr_t))
 print("#                                                                        ")
 print("#                                                                        ")
 print(sprintf("#Seneca estimate sample size =   %5i                                   ",Na))
